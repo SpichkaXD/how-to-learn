@@ -10,16 +10,93 @@
 }
 
 .header {
+  display: flex;
+  position: absolute;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  border: 1px solid red;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
+}
+
+
+.header__logo {
+  width: 183px;
+  height: 32px;
+  background: url("../images/logo_place_header.svg") no-repeat;
+  /*border: 1px solid yellow;*/
+
+}
+
+.header__logo_place_header {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 64px;
+}
+
+.header__tittle {
+  width: 730px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 64px;
+
+  border: 1px solid green;
+}
+.tittle_text {
+  font-size: 102px;
+  line-height: 96px;
+  font-weight:bold;
+  border: 1px solid rgb(12, 12, 12);
+}
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  align-self: flex-end;
+  border: 1px solid blue;
+  margin-left: 64px;
+  margin-bottom: 30px;
+}
+
+.subtitle_text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustrarion {
+  width: 765px;
+  height: 608px;
+  display: flex;
+}
+
+.main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  align-self: flex-end;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed ;
+  position: absolute;
+  right: 0;
+  align-self: flex-start;
+  z-index: 1;
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
