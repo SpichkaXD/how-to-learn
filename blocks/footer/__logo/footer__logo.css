@@ -1,5 +1,9 @@
 .logo_place_footer {
   width: 183px;
   height: 35px;
+<<<<<<< HEAD
   background: url(../../../images/logo_place_footer.svg) no-repeat;
+=======
+  background: url("/images/logo_place_footer.svg") no-repeat;
+>>>>>>> 9a1c89ebb84db52a55f30d96ff1ebeb54c033d0a
 }
