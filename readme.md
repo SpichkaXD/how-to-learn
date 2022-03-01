@@ -1,7 +1,7 @@
 <h1 align="center">Научиться учиться</h1>
 
 <p align="center">
-   <img src="images/header-image.png" alt="Project logo"></a>
+   <img weight=150px height=150px src="images/header-image.png" alt="Project logo"></a>
 </p>
 
 &ensp;
