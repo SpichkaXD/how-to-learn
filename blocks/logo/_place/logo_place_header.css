@@ -6,9 +6,3 @@
   left: 64px;
   z-index: 1;
 }
-
-
-.logo_place_footer {
-  height: 35px;
-  background: url(../../../images/logo_place_footer.svg) no-repeat;
-}
